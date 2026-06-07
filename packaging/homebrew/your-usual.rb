@@ -7,7 +7,7 @@ cask "your-usual" do
   desc "Menu bar app for quick access to your usual files, directories, and commands"
   homepage "https://github.com/s-age/YourUsual"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "YourUsual.app"
   # Expose the bundled executable as the `your-usual` CLI (e.g. `your-usual cd <path>`).
